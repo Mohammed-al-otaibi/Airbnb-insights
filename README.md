@@ -40,4 +40,17 @@ plt.show()
 ```
 <img width="583" alt="image" src="https://github.com/user-attachments/assets/95f033b1-14dd-4ce7-97ca-7709ab838a0b" />
 
+# 5 Top 10 Busiest Dates
+```diff
+import matplotlib.pyplot as plt
+busiest_dates.head(10).plot(kind='line', color='blue')
+plt.title('Top 10 Busiest Dates (Line Chart)')
+plt.ylabel('Number of Listings Unavailable')
+plt.xlabel('Date')
+plt.show()
+```
+<img width="665" alt="image" src="https://github.com/user-attachments/assets/c60aedbc-cbd0-45bf-a3f2-7b23ae4a6719" />
+
+
+
 
