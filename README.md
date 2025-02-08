@@ -51,6 +51,12 @@ plt.show()
 ```
 <img width="665" alt="image" src="https://github.com/user-attachments/assets/c60aedbc-cbd0-45bf-a3f2-7b23ae4a6719" />
 
+Download listings dataset of Hong Kong from  https://data.insideairbnb.com/united-states/hi/hawaii/2024-09-13/data/listings.csv.gz
+```diff
+import pandas as pd
+listings = pd.read_csv('/content/listings (1).csv')
+```
+
 
 
 
